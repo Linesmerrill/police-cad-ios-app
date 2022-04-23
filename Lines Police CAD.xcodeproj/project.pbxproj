@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1417C7FB281211870089166C /* Lines_Police_CADApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C7FA281211870089166C /* Lines_Police_CADApp.swift */; };
+		1417C7FD281211870089166C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C7FC281211870089166C /* HomeView.swift */; };
+		1417C7FF281211880089166C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1417C7FE281211880089166C /* Assets.xcassets */; };
+		1417C802281211880089166C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1417C801281211880089166C /* Preview Assets.xcassets */; };
+		1417C80A281217680089166C /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C809281217680089166C /* LandingPageView.swift */; };
+		1417C80C2812192F0089166C /* CivilianPageLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C80B2812192F0089166C /* CivilianPageLoginView.swift */; };
+		1417C80E2812198D0089166C /* PolicePageLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C80D2812198D0089166C /* PolicePageLoginView.swift */; };
+		1417C81028121A180089166C /* DispatchPageLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C80F28121A180089166C /* DispatchPageLoginView.swift */; };
+		1417C81228121AD80089166C /* FireEMSPageLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C81128121AD80089166C /* FireEMSPageLoginView.swift */; };
+		1417C81428121CD00089166C /* CommunityPageLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C81328121CD00089166C /* CommunityPageLoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1417C7F7281211870089166C /* Lines Police CAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lines Police CAD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1417C7FA281211870089166C /* Lines_Police_CADApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lines_Police_CADApp.swift; sourceTree = "<group>"; };
+		1417C7FC281211870089166C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1417C7FE281211880089166C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1417C801281211880089166C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1417C809281217680089166C /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		1417C80B2812192F0089166C /* CivilianPageLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilianPageLoginView.swift; sourceTree = "<group>"; };
+		1417C80D2812198D0089166C /* PolicePageLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicePageLoginView.swift; sourceTree = "<group>"; };
+		1417C80F28121A180089166C /* DispatchPageLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchPageLoginView.swift; sourceTree = "<group>"; };
+		1417C81128121AD80089166C /* FireEMSPageLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireEMSPageLoginView.swift; sourceTree = "<group>"; };
+		1417C81328121CD00089166C /* CommunityPageLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPageLoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1417C7F4281211870089166C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1417C7EE281211870089166C = {
+			isa = PBXGroup;
+			children = (
+				1417C7F9281211870089166C /* Lines Police CAD */,
+				1417C7F8281211870089166C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1417C7F8281211870089166C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1417C7F7281211870089166C /* Lines Police CAD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1417C7F9281211870089166C /* Lines Police CAD */ = {
+			isa = PBXGroup;
+			children = (
+				1417C7FA281211870089166C /* Lines_Police_CADApp.swift */,
+				1417C808281211BC0089166C /* Views */,
+				1417C7FE281211880089166C /* Assets.xcassets */,
+				1417C800281211880089166C /* Preview Content */,
+			);
+			path = "Lines Police CAD";
+			sourceTree = "<group>";
+		};
+		1417C800281211880089166C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1417C801281211880089166C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1417C808281211BC0089166C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1417C7FC281211870089166C /* HomeView.swift */,
+				1417C809281217680089166C /* LandingPageView.swift */,
+				1417C80B2812192F0089166C /* CivilianPageLoginView.swift */,
+				1417C80D2812198D0089166C /* PolicePageLoginView.swift */,
+				1417C80F28121A180089166C /* DispatchPageLoginView.swift */,
+				1417C81128121AD80089166C /* FireEMSPageLoginView.swift */,
+				1417C81328121CD00089166C /* CommunityPageLoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1417C7F6281211870089166C /* Lines Police CAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1417C805281211880089166C /* Build configuration list for PBXNativeTarget "Lines Police CAD" */;
+			buildPhases = (
+				1417C7F3281211870089166C /* Sources */,
+				1417C7F4281211870089166C /* Frameworks */,
+				1417C7F5281211870089166C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lines Police CAD";
+			productName = "Lines Police CAD";
+			productReference = 1417C7F7281211870089166C /* Lines Police CAD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1417C7EF281211870089166C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					1417C7F6281211870089166C = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1417C7F2281211870089166C /* Build configuration list for PBXProject "Lines Police CAD" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1417C7EE281211870089166C;
+			productRefGroup = 1417C7F8281211870089166C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1417C7F6281211870089166C /* Lines Police CAD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1417C7F5281211870089166C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1417C802281211880089166C /* Preview Assets.xcassets in Resources */,
+				1417C7FF281211880089166C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1417C7F3281211870089166C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1417C7FD281211870089166C /* HomeView.swift in Sources */,
+				1417C81028121A180089166C /* DispatchPageLoginView.swift in Sources */,
+				1417C80A281217680089166C /* LandingPageView.swift in Sources */,
+				1417C80C2812192F0089166C /* CivilianPageLoginView.swift in Sources */,
+				1417C81228121AD80089166C /* FireEMSPageLoginView.swift in Sources */,
+				1417C81428121CD00089166C /* CommunityPageLoginView.swift in Sources */,
+				1417C80E2812198D0089166C /* PolicePageLoginView.swift in Sources */,
+				1417C7FB281211870089166C /* Lines_Police_CADApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1417C803281211880089166C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1417C804281211880089166C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1417C806281211880089166C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lines Police CAD/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VTPDG2HNK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linespolice-cad.Lines-Police-CAD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1417C807281211880089166C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lines Police CAD/Preview Content\"";
+				DEVELOPMENT_TEAM = 6VTPDG2HNK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linespolice-cad.Lines-Police-CAD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1417C7F2281211870089166C /* Build configuration list for PBXProject "Lines Police CAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1417C803281211880089166C /* Debug */,
+				1417C804281211880089166C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1417C805281211880089166C /* Build configuration list for PBXNativeTarget "Lines Police CAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1417C806281211880089166C /* Debug */,
+				1417C807281211880089166C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1417C7EF281211870089166C /* Project object */;
+}
