@@ -60,10 +60,10 @@ struct HomeView: View {
                         Text("Menu")
                     }
                 }
-                .navigationBarHidden(true)
-                .navigationBarTitle(Text("Home"))
-                .edgesIgnoringSafeArea([.top, .bottom])
+            
         }
+        
+        
     }
 }
 

@@ -20,67 +20,67 @@ struct LandingPageView: View {
                 Spacer()
             }
             VStack {
-            HStack {
-                Spacer()
-                ZStack {
-                    Image("civilian home view")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .cornerRadius(15)
-                    VStack {
-                        HStack {
-                            Text("Civilian")
-                                .foregroundColor(.white)
-                                .font(Font.custom("Avenir Heavy", size: 24))
-                                .padding([.top, .leading])
+                HStack {
+                    Spacer()
+                    ZStack {
+                        Image("civilian home view")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .cornerRadius(15)
+                        VStack {
+                            HStack {
+                                Text("Civilian")
+                                    .foregroundColor(.white)
+                                    .font(Font.custom("Avenir Heavy", size: 24))
+                                    .padding([.top, .leading])
+                                Spacer()
+                            }
+                            
                             Spacer()
-                        }
-                        
-                        Spacer()
-                        HStack {
-                            Spacer()
-                        
-                        Image(systemName: "arrow.right")
-                            .foregroundColor(.white)
-                            .padding([.bottom, .trailing])
-                            .font(Font.custom("Avenir Heavy", size: 28))
-                        }
-                    }
-                }
-                Spacer()
-                
-            }
-            
-            HStack {
-                Spacer()
-                ZStack {
-                    Image("police home view")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .cornerRadius(15)
-                    VStack {
-                        HStack {
-                            Text("Police")
-                                .foregroundColor(.white)
-                                .font(Font.custom("Avenir Heavy", size: 24))
-                                .padding([.top, .leading])
-                            Spacer()
-                        }
-                        
-                        Spacer()
-                        HStack {
-                            Spacer()
-                        
-                        Image(systemName: "arrow.right")
-                            .foregroundColor(.white)
-                            .padding([.bottom, .trailing])
-                            .font(Font.custom("Avenir Heavy", size: 28))
+                            HStack {
+                                Spacer()
+                                
+                                Image(systemName: "arrow.right")
+                                    .foregroundColor(.white)
+                                    .padding([.bottom, .trailing])
+                                    .font(Font.custom("Avenir Heavy", size: 28))
+                            }
                         }
                     }
+                    Spacer()
+                    
                 }
-                Spacer()
                 
-            }
+                HStack {
+                    Spacer()
+                    ZStack {
+                        Image("police home view")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .cornerRadius(15)
+                        VStack {
+                            HStack {
+                                Text("Police")
+                                    .foregroundColor(.white)
+                                    .font(Font.custom("Avenir Heavy", size: 24))
+                                    .padding([.top, .leading])
+                                Spacer()
+                            }
+                            
+                            Spacer()
+                            HStack {
+                                Spacer()
+                                
+                                Image(systemName: "arrow.right")
+                                    .foregroundColor(.white)
+                                    .padding([.bottom, .trailing])
+                                    .font(Font.custom("Avenir Heavy", size: 28))
+                            }
+                        }
+                    }
+                    Spacer()
+                    
+                }
                 HStack {
                     Spacer()
                     ZStack {
@@ -100,11 +100,11 @@ struct LandingPageView: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                            
-                            Image(systemName: "arrow.right")
-                                .foregroundColor(.white)
-                                .padding([.bottom, .trailing])
-                                .font(Font.custom("Avenir Heavy", size: 28))
+                                
+                                Image(systemName: "arrow.right")
+                                    .foregroundColor(.white)
+                                    .padding([.bottom, .trailing])
+                                    .font(Font.custom("Avenir Heavy", size: 28))
                             }
                         }
                     }
@@ -130,11 +130,11 @@ struct LandingPageView: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                            
-                            Image(systemName: "arrow.right")
-                                .foregroundColor(.white)
-                                .padding([.bottom, .trailing])
-                                .font(Font.custom("Avenir Heavy", size: 28))
+                                
+                                Image(systemName: "arrow.right")
+                                    .foregroundColor(.white)
+                                    .padding([.bottom, .trailing])
+                                    .font(Font.custom("Avenir Heavy", size: 28))
                             }
                         }
                     }
@@ -160,11 +160,11 @@ struct LandingPageView: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                            
-                            Image(systemName: "arrow.right")
-                                .foregroundColor(.white)
-                                .padding([.bottom, .trailing])
-                                .font(Font.custom("Avenir Heavy", size: 28))
+                                
+                                Image(systemName: "arrow.right")
+                                    .foregroundColor(.white)
+                                    .padding([.bottom, .trailing])
+                                    .font(Font.custom("Avenir Heavy", size: 28))
                             }
                         }
                     }
