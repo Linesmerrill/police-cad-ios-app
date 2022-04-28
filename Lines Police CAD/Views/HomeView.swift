@@ -22,42 +22,47 @@ struct HomeView: View {
             CivilianPageLoginView()
                 .tabItem {
                     VStack {
-                        Image(systemName: "person")
-                        Text("Civilian")
+                        Image(systemName: "newspaper")
+                        Text("Penal Codes")
                     }
                 }
+            
+            
             
             PolicePageLoginView()
                 .tabItem {
                     VStack {
-                        Image(systemName: "shield")
-                        Text("Police")
+                        Image(systemName: "bell")
+                        Text("Notifications")
                     }
                 }
             
             DispatchPageLoginView()
                 .tabItem {
                     VStack {
-                        Image(systemName: "laptopcomputer")
-                        Text("Dispatch")
+                        Image(systemName: "person.circle")
+                        Text("Profile")
                     }
                 }
             
             FireEMSPageLoginView()
                 .tabItem {
                     VStack {
-                        Image(systemName: "bandage")
-                        Text("Fire/EMS")
+                        Image(systemName: "map")
+                        Text("Map")
                     }
                 }
             
             CommunityPageLoginView()
                 .tabItem {
                     VStack {
-                        Image(systemName: "person.3")
-                        Text("Community")
+                        Image(systemName: "menubar.rectangle")
+                        Text("Menu")
                     }
                 }
+                .navigationBarHidden(true)
+                .navigationBarTitle(Text("Home"))
+                .edgesIgnoringSafeArea([.top, .bottom])
         }
     }
 }

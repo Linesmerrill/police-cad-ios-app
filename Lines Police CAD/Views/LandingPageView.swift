@@ -12,7 +12,7 @@ struct LandingPageView: View {
         
         ScrollView {
             HStack  {
-                Text("Welcome FirstName")
+                Text("Welcome FirstName!")
                     .foregroundColor(Color(red: 0.162, green: 0.16, blue: 0.419))
                     .bold()
                     .font(Font.custom("Avenir Heavy", size: 24))

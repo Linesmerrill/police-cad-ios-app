@@ -14,22 +14,25 @@ struct LoginPageView: View {
     
     var body: some View {
         
-        
+        NavigationView {
         
         VStack(alignment: .leading, spacing: 0){
             
             HStack(alignment: .center, spacing: 0) {
                 Spacer()
-                Image(systemName: "shield")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .padding(.horizontal)
-                    .frame(width: 60.0, height: 60.0)
-                    .clipped()
-                Text("Lines Police CAD")
-                    .foregroundColor(Color(red: 0.162, green: 0.16, blue: 0.419))
-                    .bold()
-                    .font(Font.custom("Avenir Heavy", size: 28))
+                HStack {
+                    Image(systemName: "shield")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .padding(.horizontal)
+                        .frame(width: 60.0, height: 60.0)
+                        .clipped()
+                    Text("LinesPoliceCAD")
+                        .foregroundColor(Color(red: 0.162, green: 0.16, blue: 0.419))
+                        .bold()
+                        .font(Font.custom("Avenir Heavy", size: 28))
+                }.padding(.top, 40)
+                
                 Spacer()
             }
             .padding(.top, 40.0)
@@ -70,15 +73,18 @@ struct LoginPageView: View {
             
             HStack{
                 Spacer()
+                NavigationLink(destination: HomeView()) {
                 Button(action: {
+                    print("hello")
                     
                 }, label: {Text("Sign In")})
                 .font(Font.custom("Avenir Heavy", size: 22))
                 .foregroundColor(.white)
                 .padding()
                 .frame(width: 350, height: 55, alignment: .center)
-                .background(Color(red: 0.495, green: 0.498, blue: 0.694))
+                .background(Color(red: -0.0, green: 0.0, blue: 0.394))
                 .cornerRadius(30)
+                }
                 Spacer()
             }
             .padding(.top)
@@ -97,11 +103,11 @@ struct LoginPageView: View {
                     .foregroundColor(.black)
                     .frame(width: 50, height: 50, alignment: .center)
                     
-                    NavigationLink(destination: HomeView()) {
+//                    NavigationLink(destination: HomeView()) {
                         Button(action: {}, label: {Text("Sign in with Face ID")})
                             .foregroundColor(.black)
                             .font(Font.custom("Avenir", size: 16))
-                    }
+//                    }
                     
                     
                 }
@@ -116,9 +122,15 @@ struct LoginPageView: View {
                     
                 }, label: {Text("Create an Account")})
                 .foregroundColor(Color(red: 0.002, green: 0.0, blue: 0.298))
-                .font(Font.custom("Avenir", size: 20))
+                .font(Font.custom("Avenir Heavy", size: 20))
+                
                 Spacer()
             }
+            .padding(.bottom, 70.0)
+        }
+        .navigationBarHidden(true)
+        .navigationBarTitle(Text("Login"))
+        .edgesIgnoringSafeArea([.top, .bottom])
         }
     }
 }
