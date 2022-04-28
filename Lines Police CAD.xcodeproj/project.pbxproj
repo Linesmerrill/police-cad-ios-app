@@ -33,6 +33,7 @@
 		1417C81128121AD80089166C /* FireEMSPageLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireEMSPageLoginView.swift; sourceTree = "<group>"; };
 		1417C81328121CD00089166C /* CommunityPageLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPageLoginView.swift; sourceTree = "<group>"; };
 		144DBCAC281B2219007B4D5E /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		144DBCAE281B4885007B4D5E /* Lines-Police-CAD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Lines-Police-CAD-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 		1417C7F9281211870089166C /* Lines Police CAD */ = {
 			isa = PBXGroup;
 			children = (
+				144DBCAE281B4885007B4D5E /* Lines-Police-CAD-Info.plist */,
 				1417C7FA281211870089166C /* Lines_Police_CADApp.swift */,
 				1417C808281211BC0089166C /* Views */,
 				1417C7FE281211880089166C /* Assets.xcassets */,
@@ -306,6 +308,7 @@
 				DEVELOPMENT_TEAM = 6VTPDG2HNK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lines-Police-CAD-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -336,6 +339,7 @@
 				DEVELOPMENT_TEAM = 6VTPDG2HNK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lines-Police-CAD-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
