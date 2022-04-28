@@ -8,114 +8,169 @@
 import SwiftUI
 
 struct LandingPageView: View {
-    
-    @State var email: String = ""
-    @State var password: String = ""
-    
     var body: some View {
         
-        
-        
-        VStack(alignment: .leading, spacing: 0){
-            
-            HStack(alignment: .center, spacing: 0) {
-                Spacer()
-                Image(systemName: "shield")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .padding(.horizontal)
-                    .frame(width: 60.0, height: 60.0)
-                    .clipped()
-                Text("Lines Police CAD")
+        ScrollView {
+            HStack  {
+                Text("Welcome FirstName")
                     .foregroundColor(Color(red: 0.162, green: 0.16, blue: 0.419))
                     .bold()
-                    .font(Font.custom("Avenir Heavy", size: 28))
+                    .font(Font.custom("Avenir Heavy", size: 24))
+                    .padding(.leading)
                 Spacer()
             }
-            .padding(.top, 40.0)
-            
-            VStack(alignment: .leading, spacing: 0) {
-                Text("Sign In")
-                    .foregroundColor(Color(red: 0.162, green: 0.16, blue: 0.419))
-                    .bold()
-                    .font(Font.custom("Avenir Heavy", size: 28))
-                    .padding([.leading, .bottom])
-                TextField("Email", text: $email)
-                    .padding()
-                    .border(Color(red: 0.839, green: 0.839, blue: 0.847), width: 1)
-                    .cornerRadius(10.0)
-                    .padding([.leading, .bottom, .trailing], 20)
-                    .font(Font.custom("Avenir", size: 16))
-                    
-                SecureField("Password", text: $password)
-                    .padding()
-                    .border(Color(red: 0.839, green: 0.839, blue: 0.847), width: 1)
-                    .cornerRadius(10.0)
-                    .padding([.leading, .bottom, .trailing], 20)
-                    .font(Font.custom("Avenir", size: 16))
-            }
-            .padding(.top, 40.0)
-            
-            HStack{
-                Spacer()
-                Button(action: {
-                    
-                }, label: {Text("forgot password?")
-                        .foregroundColor(Color(red: 0.003, green: 0.0, blue: 0.353))
-                })
-                .foregroundColor(.black)
-                .padding(.trailing)
-                .font(Font.custom("Avenir", size: 16))
-            }
-            
-            HStack{
-                Spacer()
-                Button(action: {
-                    
-                }, label: {Text("Sign In")})
-                .font(Font.custom("Avenir Heavy", size: 22))
-                .foregroundColor(.white)
-                .padding()
-                .frame(width: 350, height: 55, alignment: .center)
-                .background(Color(red: 0.495, green: 0.498, blue: 0.694))
-                .cornerRadius(30)
-                Spacer()
-            }
-            .padding(.top)
-            
-            
-            
+            VStack {
             HStack {
                 Spacer()
-                VStack {
-                    Button(action: {
+                ZStack {
+                    Image("civilian home view")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .cornerRadius(15)
+                    VStack {
+                        HStack {
+                            Text("Civilian")
+                                .foregroundColor(.white)
+                                .font(Font.custom("Avenir Heavy", size: 24))
+                                .padding([.top, .leading])
+                            Spacer()
+                        }
                         
-                    }, label: {Image(systemName: "faceid")
-                            .resizable()
-                            .scaledToFill()
-                    })
-                    .foregroundColor(.black)
-                    .frame(width: 50, height: 50, alignment: .center)
-                    
-                    
-                    Button(action: {}, label: {Text("Sign in with Face ID")})
-                        .foregroundColor(.black)
-                        .font(Font.custom("Avenir", size: 16))
-                    
+                        Spacer()
+                        HStack {
+                            Spacer()
+                        
+                        Image(systemName: "arrow.right")
+                            .foregroundColor(.white)
+                            .padding([.bottom, .trailing])
+                            .font(Font.custom("Avenir Heavy", size: 28))
+                        }
+                    }
                 }
                 Spacer()
+                
             }
-            .padding(.top, 80.0)
-            Spacer()
             
             HStack {
                 Spacer()
-                Button(action: {
-                    
-                }, label: {Text("Create an Account")})
-                .foregroundColor(Color(red: 0.002, green: 0.0, blue: 0.298))
-                .font(Font.custom("Avenir", size: 20))
+                ZStack {
+                    Image("police home view")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .cornerRadius(15)
+                    VStack {
+                        HStack {
+                            Text("Police")
+                                .foregroundColor(.white)
+                                .font(Font.custom("Avenir Heavy", size: 24))
+                                .padding([.top, .leading])
+                            Spacer()
+                        }
+                        
+                        Spacer()
+                        HStack {
+                            Spacer()
+                        
+                        Image(systemName: "arrow.right")
+                            .foregroundColor(.white)
+                            .padding([.bottom, .trailing])
+                            .font(Font.custom("Avenir Heavy", size: 28))
+                        }
+                    }
+                }
                 Spacer()
+                
+            }
+                HStack {
+                    Spacer()
+                    ZStack {
+                        Image("dispatch home view")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .cornerRadius(15)
+                        VStack {
+                            HStack {
+                                Text("Dispatch")
+                                    .foregroundColor(.white)
+                                    .font(Font.custom("Avenir Heavy", size: 24))
+                                    .padding([.top, .leading])
+                                Spacer()
+                            }
+                            
+                            Spacer()
+                            HStack {
+                                Spacer()
+                            
+                            Image(systemName: "arrow.right")
+                                .foregroundColor(.white)
+                                .padding([.bottom, .trailing])
+                                .font(Font.custom("Avenir Heavy", size: 28))
+                            }
+                        }
+                    }
+                    Spacer()
+                    
+                }
+                HStack {
+                    Spacer()
+                    ZStack {
+                        Image("fire ems home view")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .cornerRadius(15)
+                        VStack {
+                            HStack {
+                                Text("Fire/EMS")
+                                    .foregroundColor(.white)
+                                    .font(Font.custom("Avenir Heavy", size: 24))
+                                    .padding([.top, .leading])
+                                Spacer()
+                            }
+                            
+                            Spacer()
+                            HStack {
+                                Spacer()
+                            
+                            Image(systemName: "arrow.right")
+                                .foregroundColor(.white)
+                                .padding([.bottom, .trailing])
+                                .font(Font.custom("Avenir Heavy", size: 28))
+                            }
+                        }
+                    }
+                    Spacer()
+                    
+                }
+                HStack {
+                    Spacer()
+                    ZStack {
+                        Image("community home view")
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .cornerRadius(15)
+                        VStack {
+                            HStack {
+                                Text("Communities")
+                                    .foregroundColor(.white)
+                                    .font(Font.custom("Avenir Heavy", size: 24))
+                                    .padding([.top, .leading])
+                                Spacer()
+                            }
+                            
+                            Spacer()
+                            HStack {
+                                Spacer()
+                            
+                            Image(systemName: "arrow.right")
+                                .foregroundColor(.white)
+                                .padding([.bottom, .trailing])
+                                .font(Font.custom("Avenir Heavy", size: 28))
+                            }
+                        }
+                    }
+                    Spacer()
+                    
+                }
             }
         }
     }

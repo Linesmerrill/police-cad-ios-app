@@ -11,12 +11,13 @@
 		1417C7FD281211870089166C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C7FC281211870089166C /* HomeView.swift */; };
 		1417C7FF281211880089166C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1417C7FE281211880089166C /* Assets.xcassets */; };
 		1417C802281211880089166C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1417C801281211880089166C /* Preview Assets.xcassets */; };
-		1417C80A281217680089166C /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C809281217680089166C /* LandingPageView.swift */; };
+		1417C80A281217680089166C /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C809281217680089166C /* LoginPageView.swift */; };
 		1417C80C2812192F0089166C /* CivilianPageLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C80B2812192F0089166C /* CivilianPageLoginView.swift */; };
 		1417C80E2812198D0089166C /* PolicePageLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C80D2812198D0089166C /* PolicePageLoginView.swift */; };
 		1417C81028121A180089166C /* DispatchPageLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C80F28121A180089166C /* DispatchPageLoginView.swift */; };
 		1417C81228121AD80089166C /* FireEMSPageLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C81128121AD80089166C /* FireEMSPageLoginView.swift */; };
 		1417C81428121CD00089166C /* CommunityPageLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C81328121CD00089166C /* CommunityPageLoginView.swift */; };
+		144DBCAD281B2219007B4D5E /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DBCAC281B2219007B4D5E /* LandingPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +26,13 @@
 		1417C7FC281211870089166C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1417C7FE281211880089166C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1417C801281211880089166C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1417C809281217680089166C /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		1417C809281217680089166C /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
 		1417C80B2812192F0089166C /* CivilianPageLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilianPageLoginView.swift; sourceTree = "<group>"; };
 		1417C80D2812198D0089166C /* PolicePageLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicePageLoginView.swift; sourceTree = "<group>"; };
 		1417C80F28121A180089166C /* DispatchPageLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchPageLoginView.swift; sourceTree = "<group>"; };
 		1417C81128121AD80089166C /* FireEMSPageLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireEMSPageLoginView.swift; sourceTree = "<group>"; };
 		1417C81328121CD00089166C /* CommunityPageLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityPageLoginView.swift; sourceTree = "<group>"; };
+		144DBCAC281B2219007B4D5E /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				1417C7FC281211870089166C /* HomeView.swift */,
-				1417C809281217680089166C /* LandingPageView.swift */,
+				1417C809281217680089166C /* LoginPageView.swift */,
 				1417C80B2812192F0089166C /* CivilianPageLoginView.swift */,
+				144DBCAC281B2219007B4D5E /* LandingPageView.swift */,
 				1417C80D2812198D0089166C /* PolicePageLoginView.swift */,
 				1417C80F28121A180089166C /* DispatchPageLoginView.swift */,
 				1417C81128121AD80089166C /* FireEMSPageLoginView.swift */,
@@ -165,11 +168,12 @@
 			files = (
 				1417C7FD281211870089166C /* HomeView.swift in Sources */,
 				1417C81028121A180089166C /* DispatchPageLoginView.swift in Sources */,
-				1417C80A281217680089166C /* LandingPageView.swift in Sources */,
+				1417C80A281217680089166C /* LoginPageView.swift in Sources */,
 				1417C80C2812192F0089166C /* CivilianPageLoginView.swift in Sources */,
 				1417C81228121AD80089166C /* FireEMSPageLoginView.swift in Sources */,
 				1417C81428121CD00089166C /* CommunityPageLoginView.swift in Sources */,
 				1417C80E2812198D0089166C /* PolicePageLoginView.swift in Sources */,
+				144DBCAD281B2219007B4D5E /* LandingPageView.swift in Sources */,
 				1417C7FB281211870089166C /* Lines_Police_CADApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

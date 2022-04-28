@@ -11,7 +11,7 @@ import SwiftUI
 struct Lines_Police_CADApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            LoginPageView()
         }
     }
 }
