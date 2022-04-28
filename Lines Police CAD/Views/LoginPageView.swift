@@ -79,7 +79,7 @@ struct LoginPageView: View {
                             .navigationBarBackButtonHidden(true)
                             .edgesIgnoringSafeArea([.top, .bottom])) {
                         Button(action: {
-                            print("hello")
+//                            print("hello")
                             
                         }, label: {Text("Sign In")})
                         .font(Font.custom("Avenir Heavy", size: 22))

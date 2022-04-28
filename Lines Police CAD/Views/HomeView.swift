@@ -19,7 +19,7 @@ struct HomeView: View {
                     }
                 }
             
-            CivilianPageLoginView()
+            PenalCodesPageView()
                 .tabItem {
                     VStack {
                         Image(systemName: "newspaper")
@@ -29,7 +29,7 @@ struct HomeView: View {
             
             
             
-            PolicePageLoginView()
+            NotificationsPageView()
                 .tabItem {
                     VStack {
                         Image(systemName: "bell")
@@ -37,7 +37,7 @@ struct HomeView: View {
                     }
                 }
             
-            DispatchPageLoginView()
+            ProfilePageView()
                 .tabItem {
                     VStack {
                         Image(systemName: "person.circle")
@@ -45,7 +45,7 @@ struct HomeView: View {
                     }
                 }
             
-            FireEMSPageLoginView()
+            MapPageView()
                 .tabItem {
                     VStack {
                         Image(systemName: "map")
@@ -53,7 +53,7 @@ struct HomeView: View {
                     }
                 }
             
-            CommunityPageLoginView()
+            MenuPageView()
                 .tabItem {
                     VStack {
                         Image(systemName: "menubar.rectangle")
