@@ -11,6 +11,7 @@ struct HomeView: View {
     var body: some View {
         
         TabView {
+            
             LandingPageView()
                 .tabItem {
                     VStack {

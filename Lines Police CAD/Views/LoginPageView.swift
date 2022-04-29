@@ -75,11 +75,12 @@ struct LoginPageView: View {
                     Spacer()
                     NavigationLink(destination: HomeView()
                         .navigationBarTitle("", displayMode: .inline) //this must be empty
-                            .navigationBarHidden(true)
-                            .navigationBarBackButtonHidden(true)
-                            .edgesIgnoringSafeArea([.top, .bottom])) {
+                        .navigationBarHidden(true)
+                        .navigationBarBackButtonHidden(true)
+                        .edgesIgnoringSafeArea([.top, .bottom])
+                    ) {
                         Button(action: {
-//                            print("hello")
+                            //                            print("hello")
                             
                         }, label: {Text("Sign In")})
                         .font(Font.custom("Avenir Heavy", size: 22))
@@ -134,9 +135,9 @@ struct LoginPageView: View {
                 .padding(.bottom, 70.0)
             }
             .navigationBarTitle("", displayMode: .inline) //this must be empty
-                .navigationBarHidden(true)
-                .navigationBarBackButtonHidden(true)
-                .edgesIgnoringSafeArea([.top, .bottom])
+            .navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
+            .edgesIgnoringSafeArea([.top, .bottom])
         }
         
         

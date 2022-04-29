@@ -10,9 +10,11 @@ import SwiftUI
 struct LandingPageView: View {
     var body: some View {
         
+        
+        
         ScrollView {
             HStack  {
-                Text("Welcome <FirstName>!")
+                Text("Welcome!")
                     .foregroundColor(Color(red: 0.162, green: 0.16, blue: 0.419))
                     .bold()
                     .font(Font.custom("Avenir Heavy", size: 24))
@@ -20,36 +22,52 @@ struct LandingPageView: View {
                 Spacer()
             }
             VStack {
-                HStack {
-                    Spacer()
-                    ZStack {
-                        Image("civilian home view")
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .cornerRadius(15)
-                        VStack {
-                            HStack {
-                                Text("Civilian")
-                                    .foregroundColor(.white)
-                                    .font(Font.custom("Avenir Heavy", size: 24))
-                                    .padding([.top, .leading])
-                                Spacer()
-                            }
+                
+                    HStack {
+                        Spacer()
+                        NavigationLink(destination: CivilianPageView()
+                                       //.navigationBarTitle("Civilian", displayMode: .inline) //this must be empty
+                                       //                            .navigationBarHidden(true)
+                                       //                            .navigationBarBackButtonHidden(true)
+                                       //.edgesIgnoringSafeArea([.top, .bottom])
+                        )
+                        {
+                        Button(action: {
                             
-                            Spacer()
-                            HStack {
-                                Spacer()
-                                
-                                Image(systemName: "arrow.right")
-                                    .foregroundColor(.white)
-                                    .padding([.bottom, .trailing])
-                                    .font(Font.custom("Avenir Heavy", size: 28))
+                        }, label: {
+                            ZStack {
+                                Image("civilian home view")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fill)
+                                    .cornerRadius(15)
+                                VStack {
+                                    HStack {
+                                        Text("Civilian")
+                                            .foregroundColor(.white)
+                                            .font(Font.custom("Avenir Heavy", size: 24))
+                                            .padding([.top, .leading])
+                                        Spacer()
+                                    }
+                                    
+                                    Spacer()
+                                    HStack {
+                                        Spacer()
+                                        
+                                        Image(systemName: "arrow.right")
+                                            .foregroundColor(.white)
+                                            .padding([.bottom, .trailing])
+                                            .font(Font.custom("Avenir Heavy", size: 28))
+                                    }
+                                }
                             }
-                        }
+                        })
+                        
+                        Spacer()
                     }
-                    Spacer()
-                    
-                }
+                    .isDetailLink(false)
+                    .navigationTitle("")
+                    }
+                
                 
                 HStack {
                     Spacer()
@@ -173,6 +191,7 @@ struct LandingPageView: View {
                 }
             }
         }
+        
     }
 }
 

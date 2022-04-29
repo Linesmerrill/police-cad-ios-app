@@ -18,6 +18,7 @@
 		1417C81228121AD80089166C /* MapPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C81128121AD80089166C /* MapPageView.swift */; };
 		1417C81428121CD00089166C /* MenuPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417C81328121CD00089166C /* MenuPageView.swift */; };
 		144DBCAD281B2219007B4D5E /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DBCAC281B2219007B4D5E /* LandingPageView.swift */; };
+		14979958281B99AF008E05D1 /* CivilianPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14979957281B99AF008E05D1 /* CivilianPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1417C81328121CD00089166C /* MenuPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPageView.swift; sourceTree = "<group>"; };
 		144DBCAC281B2219007B4D5E /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
 		144DBCAE281B4885007B4D5E /* Lines-Police-CAD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Lines-Police-CAD-Info.plist"; sourceTree = SOURCE_ROOT; };
+		14979957281B99AF008E05D1 /* CivilianPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilianPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				1417C80F28121A180089166C /* ProfilePageView.swift */,
 				1417C81128121AD80089166C /* MapPageView.swift */,
 				1417C81328121CD00089166C /* MenuPageView.swift */,
+				14979957281B99AF008E05D1 /* CivilianPageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14979958281B99AF008E05D1 /* CivilianPageView.swift in Sources */,
 				1417C7FD281211870089166C /* HomeView.swift in Sources */,
 				1417C81028121A180089166C /* ProfilePageView.swift in Sources */,
 				1417C80A281217680089166C /* LoginPageView.swift in Sources */,

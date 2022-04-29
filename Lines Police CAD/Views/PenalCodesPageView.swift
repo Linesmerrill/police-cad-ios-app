@@ -11,7 +11,15 @@ struct PenalCodesPageView: View {
     var body: some View {
         
         VStack{
-            Text("Penal Codes")
+            HStack {
+                Text("Penal Codes")
+                    .foregroundColor(Color(red: 0.162, green: 0.16, blue: 0.419))
+                    .bold()
+                    .font(Font.custom("Avenir Heavy", size: 28))
+                    .padding([.leading, .bottom])
+                Spacer()
+            }
+            
             List {
                 Button(action: {
                     guard let url = URL(string: "https://www.linespolice-cad.com/penal-code") else {
