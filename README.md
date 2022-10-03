@@ -1,3 +1,3 @@
 # police-cad-ios-app
 
-Sample iOS applicaiton written in XCODE for iOS learning and understanding
+Sample iOS application written in Xcode for iOS learning and understanding
